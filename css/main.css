@@ -48,6 +48,84 @@ body {
   border-radius: 0;
   color: #fff;
   min-height: 100%;
+  @-moz-keyframes bounce {
+    /* line 47, ../scss/main.scss */
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      -moz-transform: translateY(0);
+      transform: translateY(0);
+    }
+
+    /* line 51, ../scss/main.scss */
+    40% {
+      -moz-transform: translateY(-30px);
+      transform: translateY(-30px);
+    }
+
+    /* line 55, ../scss/main.scss */
+    60% {
+      -moz-transform: translateY(-15px);
+      transform: translateY(-15px);
+    }
+}
+
+  @-webkit-keyframes bounce {
+    /* line 65, ../scss/main.scss */
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+
+    /* line 69, ../scss/main.scss */
+    40% {
+      -webkit-transform: translateY(-30px);
+      transform: translateY(-30px);
+    }
+
+    /* line 73, ../scss/main.scss */
+    60% {
+      -webkit-transform: translateY(-15px);
+      transform: translateY(-15px);
+    }
+}
+
+  @keyframes bounce {
+    /* line 83, ../scss/main.scss */
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+
+    /* line 89, ../scss/main.scss */
+    40% {
+      -moz-transform: translateY(-30px);
+      -ms-transform: translateY(-30px);
+      -webkit-transform: translateY(-30px);
+      transform: translateY(-30px);
+    }
+
+    /* line 95, ../scss/main.scss */
+    60% {
+      -moz-transform: translateY(-15px);
+      -ms-transform: translateY(-15px);
+      -webkit-transform: translateY(-15px);
+      transform: translateY(-15px);
+    }
+}
+
 }
 /* line 20, ../scss/main.scss */
 .jumbotron .title {
@@ -76,12 +154,29 @@ body {
   font-size: 20px;
   line-height: 1.6;
 }
+/* line 102, ../scss/main.scss */
+.jumbotron .arrow {
+  position: relative;
+  bottom: 0;
+  left: 50%;
+  margin-left: -20px;
+  width: 40px;
+  height: 40px;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0yOTMuNzUxLDQ1NS44NjhjLTIwLjE4MSwyMC4xNzktNTMuMTY1LDE5LjkxMy03My42NzMtMC41OTVsMCwwYy0yMC41MDgtMjAuNTA4LTIwLjc3My01My40OTMtMC41OTQtNzMuNjcyICBsMTg5Ljk5OS0xOTBjMjAuMTc4LTIwLjE3OCw1My4xNjQtMTkuOTEzLDczLjY3MiwwLjU5NWwwLDBjMjAuNTA4LDIwLjUwOSwyMC43NzIsNTMuNDkyLDAuNTk1LDczLjY3MUwyOTMuNzUxLDQ1NS44Njh6Ii8+DQo8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMjIwLjI0OSw0NTUuODY4YzIwLjE4LDIwLjE3OSw1My4xNjQsMTkuOTEzLDczLjY3Mi0wLjU5NWwwLDBjMjAuNTA5LTIwLjUwOCwyMC43NzQtNTMuNDkzLDAuNTk2LTczLjY3MiAgbC0xOTAtMTkwYy0yMC4xNzgtMjAuMTc4LTUzLjE2NC0xOS45MTMtNzMuNjcxLDAuNTk1bDAsMGMtMjAuNTA4LDIwLjUwOS0yMC43NzIsNTMuNDkyLTAuNTk1LDczLjY3MUwyMjAuMjQ5LDQ1NS44Njh6Ii8+DQo8L3N2Zz4=);
+  background-size: contain;
+}
+/* line 112, ../scss/main.scss */
+.jumbotron .bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
 
-/* line 43, ../scss/main.scss */
+/* line 118, ../scss/main.scss */
 section.do {
   padding: 60px 0;
 }
-/* line 45, ../scss/main.scss */
+/* line 120, ../scss/main.scss */
 section.do p {
   font-size: 30px;
   font-weight: 200;
@@ -89,7 +184,7 @@ section.do p {
   color: #868686;
 }
 
-/* line 52, ../scss/main.scss */
+/* line 127, ../scss/main.scss */
 section.unique {
   background: #34495e url(../img/girls.jpg) no-repeat center bottom;
   background-size: cover;
@@ -100,30 +195,30 @@ section.unique {
   padding: 250px 0;
   min-height: 100%;
 }
-/* line 62, ../scss/main.scss */
+/* line 136, ../scss/main.scss */
 section.unique .card {
   text-align: center;
   margin: 0 auto;
 }
-/* line 66, ../scss/main.scss */
+/* line 140, ../scss/main.scss */
 section.unique .card .card-down h4 {
   font-size: 22px;
   font-weight: 400;
   line-height: 1.8;
 }
-/* line 71, ../scss/main.scss */
+/* line 145, ../scss/main.scss */
 section.unique .card .card-down p {
   font-size: 18px;
   font-weight: 100;
   line-height: 1.6;
 }
 
-/* line 79, ../scss/main.scss */
+/* line 154, ../scss/main.scss */
 .m-0 {
   margin: 0 auto !important;
 }
 
-/* line 82, ../scss/main.scss */
+/* line 157, ../scss/main.scss */
 .s-title {
   font-size: 40px;
   text-transform: uppercase;
@@ -132,34 +227,34 @@ section.unique .card .card-down p {
   text-align: center;
 }
 
-/* line 89, ../scss/main.scss */
+/* line 164, ../scss/main.scss */
 section.quote {
   padding: 60px 0;
   background-color: #ecf0f1;
 }
-/* line 92, ../scss/main.scss */
+/* line 167, ../scss/main.scss */
 section.quote p.b-quote {
   font-size: 40px;
   font-weight: 600;
   line-height: 1.5;
 }
-/* line 97, ../scss/main.scss */
+/* line 172, ../scss/main.scss */
 section.quote p.sub-quote {
   font-size: 30px;
   font-weight: 200;
   line-height: 1.5;
   color: #868686;
 }
-/* line 103, ../scss/main.scss */
+/* line 178, ../scss/main.scss */
 section.quote .b-quote::after {
   content: close-quote;
 }
-/* line 106, ../scss/main.scss */
+/* line 181, ../scss/main.scss */
 section.quote .b-quote::before {
   content: open-quote;
 }
 
-/* line 110, ../scss/main.scss */
+/* line 185, ../scss/main.scss */
 section.work {
   padding: 250px 0;
   min-height: 100%;
@@ -170,58 +265,97 @@ section.work {
   border-radius: 0;
   color: #fff;
 }
-/* line 119, ../scss/main.scss */
+/* line 194, ../scss/main.scss */
 section.work h1 {
   font-size: 40px;
   font-weight: bold;
 }
-/* line 123, ../scss/main.scss */
+/* line 198, ../scss/main.scss */
 section.work p {
   font-weight: 200;
   font-size: 26px;
   line-height: 1.6;
 }
-/* line 128, ../scss/main.scss */
+/* line 203, ../scss/main.scss */
 section.work hr.strike-through {
   width: 100%;
   height: 2px;
 }
 
-/* line 133, ../scss/main.scss */
+/* line 208, ../scss/main.scss */
 section.featured {
   padding: 20px 0;
 }
 
-/* line 136, ../scss/main.scss */
+/* line 211, ../scss/main.scss */
 section.video {
   padding: 40px 0;
-  background: #ecf0f1 no-repeat top center;
+  background: #f39c12 no-repeat top center;
   background-blend-mode: soft-light;
   background-size: cover;
   margin-bottom: 0;
   border-radius: 0;
+  color: #fff;
 }
-/* line 143, ../scss/main.scss */
+/* line 219, ../scss/main.scss */
 section.video video {
   background: transparent;
   border-radius: 6px;
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 25px 50px 0px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 25px 50px 0;
 }
 
-/* line 152, ../scss/main.scss */
+/* line 228, ../scss/main.scss */
+section.service {
+  padding: 250px 0;
+  min-height: 100%;
+  background: #34495e url(../img/2.jpg) no-repeat top center;
+  background-blend-mode: soft-light;
+  background-size: cover;
+  margin-bottom: 0;
+  border-radius: 0;
+  color: #fff;
+}
+/* line 237, ../scss/main.scss */
+section.service h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+/* line 241, ../scss/main.scss */
+section.service p {
+  font-weight: 200;
+  font-size: 26px;
+  line-height: 1.6;
+}
+
+/* line 247, ../scss/main.scss */
+section.contact {
+  padding: 20px 0;
+}
+/* line 249, ../scss/main.scss */
+section.contact .band {
+  font-size: 18px;
+  color: #34495e;
+  font-weight: 400;
+}
+/* line 254, ../scss/main.scss */
+section.contact input {
+  padding: 20px 10;
+}
+
+/* line 258, ../scss/main.scss */
 footer {
   color: #34495e;
 }
 
-/* line 155, ../scss/main.scss */
+/* line 261, ../scss/main.scss */
 .m-b-lg {
   margin-bottom: 20px;
 }
 
-/* line 158, ../scss/main.scss */
+/* line 264, ../scss/main.scss */
 span.blue {
   color: #339beb;
 }
