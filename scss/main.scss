@@ -1,0 +1,12 @@
+@import 'assets/mixins';
+@import 'assets/color';
+@import 'assets/type';
+@import 'assets/extends';
+@include body-ess;
+html,
+body {
+  font-family: 'Lato','Helvetica',Arial,sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
