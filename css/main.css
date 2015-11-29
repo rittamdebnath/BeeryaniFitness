@@ -49,39 +49,39 @@ body {
   color: #fff;
   min-height: 100%;
 }
-/* line 21, ../scss/main.scss */
+/* line 20, ../scss/main.scss */
 .jumbotron .title {
   padding: 250px 0;
 }
-/* line 24, ../scss/main.scss */
+/* line 23, ../scss/main.scss */
 .jumbotron .menu > ul {
   vertical-align: bottom;
 }
-/* line 26, ../scss/main.scss */
+/* line 25, ../scss/main.scss */
 .jumbotron .menu > ul li {
   display: inline-block;
   list-style-type: none;
   margin-left: 15px;
   margin-right: 15px;
 }
-/* line 31, ../scss/main.scss */
+/* line 30, ../scss/main.scss */
 .jumbotron .menu > ul li a {
   color: #fff;
   font-size: 20px;
   font-weight: 200;
 }
-/* line 38, ../scss/main.scss */
+/* line 37, ../scss/main.scss */
 .jumbotron p {
   font-weight: 200;
   font-size: 20px;
   line-height: 1.6;
 }
 
-/* line 44, ../scss/main.scss */
+/* line 43, ../scss/main.scss */
 section.do {
   padding: 60px 0;
 }
-/* line 46, ../scss/main.scss */
+/* line 45, ../scss/main.scss */
 section.do p {
   font-size: 30px;
   font-weight: 200;
@@ -89,8 +89,8 @@ section.do p {
   color: #868686;
 }
 
-/* line 53, ../scss/main.scss */
-section.service {
+/* line 52, ../scss/main.scss */
+section.unique {
   background: #34495e url(../img/girls.jpg) no-repeat center bottom;
   background-size: cover;
   background-blend-mode: soft-light;
@@ -101,18 +101,18 @@ section.service {
   min-height: 100%;
 }
 /* line 62, ../scss/main.scss */
-section.service .card {
+section.unique .card {
   text-align: center;
   margin: 0 auto;
 }
 /* line 66, ../scss/main.scss */
-section.service .card .card-down h4 {
+section.unique .card .card-down h4 {
   font-size: 22px;
   font-weight: 400;
   line-height: 1.8;
 }
 /* line 71, ../scss/main.scss */
-section.service .card .card-down p {
+section.unique .card .card-down p {
   font-size: 18px;
   font-weight: 100;
   line-height: 1.6;
@@ -181,23 +181,47 @@ section.work p {
   font-size: 26px;
   line-height: 1.6;
 }
-/* line 129, ../scss/main.scss */
+/* line 128, ../scss/main.scss */
 section.work hr.strike-through {
   width: 100%;
   height: 2px;
 }
 
-/* line 135, ../scss/main.scss */
+/* line 133, ../scss/main.scss */
+section.featured {
+  padding: 20px 0;
+}
+
+/* line 136, ../scss/main.scss */
+section.video {
+  padding: 40px 0;
+  background: #ecf0f1 no-repeat top center;
+  background-blend-mode: soft-light;
+  background-size: cover;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+/* line 143, ../scss/main.scss */
+section.video video {
+  background: transparent;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 25px 50px 0px;
+}
+
+/* line 152, ../scss/main.scss */
 footer {
   color: #34495e;
 }
 
-/* line 142, ../scss/main.scss */
+/* line 155, ../scss/main.scss */
 .m-b-lg {
   margin-bottom: 20px;
 }
 
-/* line 145, ../scss/main.scss */
+/* line 158, ../scss/main.scss */
 span.blue {
   color: #339beb;
 }
