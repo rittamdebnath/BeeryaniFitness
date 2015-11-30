@@ -420,17 +420,17 @@ span.blue {
 
   /* line 327, ../scss/main.scss */
   section.unique {
-    padding: 120px 0;
+    padding: 65px 0;
   }
 
   /* line 330, ../scss/main.scss */
   section.work {
-    padding: 120px 0;
+    padding: 65px 0;
   }
 
   /* line 333, ../scss/main.scss */
   section.service {
-    padding: 120px 0;
+    padding: 65px 0;
   }
 }
 @media screen and (min-width: 1920px) {
