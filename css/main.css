@@ -47,32 +47,31 @@ body {
   margin-bottom: 0;
   border-radius: 0;
   color: #fff;
-  height: 100%;
   min-height: 100%;
 }
-/* line 21, ../scss/main.scss */
+/* line 20, ../scss/main.scss */
 .jumbotron .title {
-  padding: 20% 0;
+  padding: 250px 0;
 }
-/* line 24, ../scss/main.scss */
+/* line 23, ../scss/main.scss */
 .jumbotron .menu > ul {
   vertical-align: middle;
 }
-/* line 26, ../scss/main.scss */
+/* line 25, ../scss/main.scss */
 .jumbotron .menu > ul li {
   display: inline-block;
   list-style-type: none;
   margin-left: 15px;
   margin-right: 15px;
 }
-/* line 31, ../scss/main.scss */
+/* line 30, ../scss/main.scss */
 .jumbotron .menu > ul li a {
   color: #fff;
   font-size: 20px;
   font-weight: 200;
   text-decoration: none;
 }
-/* line 37, ../scss/main.scss */
+/* line 36, ../scss/main.scss */
 .jumbotron .menu > ul li a:after {
   bottom: 0;
   left: 0;
@@ -89,20 +88,20 @@ body {
   -ms-transform: translate3d(-101%, 0, 0);
   /* transform: translate3d(-101%, 0, 0); */
 }
-/* line 55, ../scss/main.scss */
+/* line 54, ../scss/main.scss */
 .jumbotron p {
   font-weight: 200;
   font-size: 20px;
   line-height: 1.6;
 }
 
-/* line 63, ../scss/main.scss */
+/* line 62, ../scss/main.scss */
 li:first-child {
   margin-left: 0;
 }
 
 @-moz-keyframes bounce {
-  /* line 73, ../scss/main.scss */
+  /* line 72, ../scss/main.scss */
   0%,
   20%,
   50%,
@@ -112,13 +111,13 @@ li:first-child {
     transform: translateY(0);
   }
 
-  /* line 77, ../scss/main.scss */
+  /* line 76, ../scss/main.scss */
   40% {
     -moz-transform: translateY(-30px);
     transform: translateY(-30px);
   }
 
-  /* line 81, ../scss/main.scss */
+  /* line 80, ../scss/main.scss */
   60% {
     -moz-transform: translateY(-15px);
     transform: translateY(-15px);
@@ -126,7 +125,7 @@ li:first-child {
 }
 
 @-webkit-keyframes bounce {
-  /* line 91, ../scss/main.scss */
+  /* line 90, ../scss/main.scss */
   0%,
   20%,
   50%,
@@ -136,13 +135,13 @@ li:first-child {
     transform: translateY(0);
   }
 
-  /* line 95, ../scss/main.scss */
+  /* line 94, ../scss/main.scss */
   40% {
     -webkit-transform: translateY(-30px);
     transform: translateY(-30px);
   }
 
-  /* line 99, ../scss/main.scss */
+  /* line 98, ../scss/main.scss */
   60% {
     -webkit-transform: translateY(-15px);
     transform: translateY(-15px);
@@ -150,7 +149,7 @@ li:first-child {
 }
 
 @keyframes bounce {
-  /* line 109, ../scss/main.scss */
+  /* line 108, ../scss/main.scss */
   0%,
   20%,
   50%,
@@ -162,7 +161,7 @@ li:first-child {
     transform: translateY(0);
   }
 
-  /* line 115, ../scss/main.scss */
+  /* line 114, ../scss/main.scss */
   40% {
     -moz-transform: translateY(-30px);
     -ms-transform: translateY(-30px);
@@ -170,7 +169,7 @@ li:first-child {
     transform: translateY(-30px);
   }
 
-  /* line 121, ../scss/main.scss */
+  /* line 120, ../scss/main.scss */
   60% {
     -moz-transform: translateY(-15px);
     -ms-transform: translateY(-15px);
@@ -179,7 +178,7 @@ li:first-child {
   }
 }
 
-/* line 128, ../scss/main.scss */
+/* line 127, ../scss/main.scss */
 .arrow {
   position: relative;
   bottom: 0;
@@ -191,18 +190,18 @@ li:first-child {
   background-size: contain;
 }
 
-/* line 138, ../scss/main.scss */
+/* line 137, ../scss/main.scss */
 .bounce {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
 }
 
-/* line 143, ../scss/main.scss */
+/* line 142, ../scss/main.scss */
 section.do {
   padding: 60px 0;
 }
-/* line 145, ../scss/main.scss */
+/* line 144, ../scss/main.scss */
 section.do p {
   font-size: 30px;
   font-weight: 200;
@@ -210,7 +209,7 @@ section.do p {
   color: #868686;
 }
 
-/* line 152, ../scss/main.scss */
+/* line 151, ../scss/main.scss */
 section.unique {
   background: #34495e url(../img/girls.jpg) no-repeat center bottom;
   background-size: cover;
@@ -220,30 +219,30 @@ section.unique {
   color: #fff;
   padding: 250px 0;
 }
-/* line 160, ../scss/main.scss */
+/* line 159, ../scss/main.scss */
 section.unique .card {
   text-align: center;
   margin: 0 auto;
 }
-/* line 164, ../scss/main.scss */
+/* line 163, ../scss/main.scss */
 section.unique .card .card-down h4 {
   font-size: 22px;
   font-weight: 400;
   line-height: 1.8;
 }
-/* line 169, ../scss/main.scss */
+/* line 168, ../scss/main.scss */
 section.unique .card .card-down p {
   font-size: 18px;
   font-weight: 100;
   line-height: 1.6;
 }
 
-/* line 177, ../scss/main.scss */
+/* line 176, ../scss/main.scss */
 .m-0 {
   margin: 0 auto !important;
 }
 
-/* line 180, ../scss/main.scss */
+/* line 179, ../scss/main.scss */
 .s-title {
   font-size: 40px;
   text-transform: uppercase;
@@ -252,34 +251,34 @@ section.unique .card .card-down p {
   text-align: center;
 }
 
-/* line 187, ../scss/main.scss */
+/* line 186, ../scss/main.scss */
 section.quote {
   padding: 60px 0;
   background-color: #ecf0f1;
 }
-/* line 190, ../scss/main.scss */
+/* line 189, ../scss/main.scss */
 section.quote p.b-quote {
   font-size: 40px;
   font-weight: 600;
   line-height: 1.5;
 }
-/* line 195, ../scss/main.scss */
+/* line 194, ../scss/main.scss */
 section.quote p.sub-quote {
   font-size: 30px;
   font-weight: 200;
   line-height: 1.5;
   color: #868686;
 }
-/* line 201, ../scss/main.scss */
+/* line 200, ../scss/main.scss */
 section.quote .b-quote::after {
   content: close-quote;
 }
-/* line 204, ../scss/main.scss */
+/* line 203, ../scss/main.scss */
 section.quote .b-quote::before {
   content: open-quote;
 }
 
-/* line 208, ../scss/main.scss */
+/* line 207, ../scss/main.scss */
 section.work {
   padding: 250px 0;
   background: #34495e url(../img/2.jpg) no-repeat top center;
@@ -289,28 +288,28 @@ section.work {
   border-radius: 0;
   color: #fff;
 }
-/* line 216, ../scss/main.scss */
+/* line 215, ../scss/main.scss */
 section.work h1 {
   font-size: 40px;
   font-weight: bold;
 }
-/* line 220, ../scss/main.scss */
+/* line 219, ../scss/main.scss */
 section.work p {
   font-weight: 200;
   font-size: 26px;
   line-height: 1.6;
 }
-/* line 225, ../scss/main.scss */
+/* line 224, ../scss/main.scss */
 section.work hr.strike-through {
   width: 100%;
   height: 2px;
 }
 
-/* line 230, ../scss/main.scss */
+/* line 229, ../scss/main.scss */
 section.featured {
   padding: 20px 0;
 }
-/* line 232, ../scss/main.scss */
+/* line 231, ../scss/main.scss */
 section.featured img.effect-gray {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
@@ -320,14 +319,14 @@ section.featured img.effect-gray {
   -webkit-transition: all 0.6s ease;
   /* Transition for Webkit browsers */
 }
-/* line 241, ../scss/main.scss */
+/* line 240, ../scss/main.scss */
 section.featured img.effect-gray:hover {
   filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
   filter: none;
 }
 
-/* line 247, ../scss/main.scss */
+/* line 246, ../scss/main.scss */
 section.video {
   padding: 40px 0;
   background: #34495e url(../img/miranda.jpg) no-repeat top center;
@@ -337,7 +336,7 @@ section.video {
   border-radius: 0;
   color: #fff;
 }
-/* line 255, ../scss/main.scss */
+/* line 254, ../scss/main.scss */
 section.video video {
   background: transparent;
   border-radius: 6px;
@@ -347,7 +346,7 @@ section.video video {
   box-shadow: rgba(0, 0, 0, 0.2) 0 25px 50px 0;
 }
 
-/* line 264, ../scss/main.scss */
+/* line 263, ../scss/main.scss */
 section.service {
   padding: 250px 0;
   background: #34495e url(../img/2.jpg) no-repeat top center;
@@ -357,65 +356,65 @@ section.service {
   border-radius: 0;
   color: #fff;
 }
-/* line 272, ../scss/main.scss */
+/* line 271, ../scss/main.scss */
 section.service h1 {
   font-size: 40px;
   font-weight: bold;
 }
-/* line 276, ../scss/main.scss */
+/* line 275, ../scss/main.scss */
 section.service p {
   font-weight: 200;
   font-size: 26px;
   line-height: 1.6;
 }
 
-/* line 282, ../scss/main.scss */
+/* line 281, ../scss/main.scss */
 section.contact {
   padding: 20px 0;
 }
-/* line 284, ../scss/main.scss */
+/* line 283, ../scss/main.scss */
 section.contact .band {
   font-size: 18px;
   color: #34495e;
   font-weight: 400;
 }
-/* line 289, ../scss/main.scss */
+/* line 288, ../scss/main.scss */
 section.contact input {
   padding: 20px 10;
 }
 
-/* line 293, ../scss/main.scss */
+/* line 292, ../scss/main.scss */
 footer {
   color: #34495e;
 }
 
-/* line 296, ../scss/main.scss */
+/* line 295, ../scss/main.scss */
 .m-b-lg {
   margin-bottom: 20px;
 }
 
-/* line 299, ../scss/main.scss */
+/* line 298, ../scss/main.scss */
 span.blue {
   color: #339beb;
 }
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
-  /* line 307, ../scss/main.scss */
+  /* line 306, ../scss/main.scss */
   .jumbotron .title {
     padding: 20% 0;
   }
 }
 /* ----------- Retina Screens ----------- */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
-  /* line 316, ../scss/main.scss */
+  /* line 315, ../scss/main.scss */
   .jumbotron .title {
     padding: 20% 0;
   }
 }
 @media screen and (max-width: 1280px) {
-  /* line 324, ../scss/main.scss */
+  /* line 323, ../scss/main.scss */
   .jumbotron .title {
-    padding: 15% 0;
+    padding: 150px 0;
   }
 }
