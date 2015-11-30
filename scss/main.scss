@@ -318,10 +318,17 @@ span.blue {
   }
 }
 
-@media screen and (max-width:1326px){
+@media screen and (min-width:1300px) and (max-width:1350px){
   .jumbotron {
     .title {
       padding: 120px 0;
+    }
+  }
+}
+@media screen and (min-width:1920px){
+  .jumbotron {
+    .title {
+      padding: 250px 0;
     }
   }
 }

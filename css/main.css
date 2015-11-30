@@ -412,9 +412,15 @@ span.blue {
     padding: 100px 0;
   }
 }
-@media screen and (max-width: 1326px) {
+@media screen and (min-width: 1300px) and (max-width: 1350px) {
   /* line 323, ../scss/main.scss */
   .jumbotron .title {
     padding: 120px 0;
+  }
+}
+@media screen and (min-width: 1920px) {
+  /* line 330, ../scss/main.scss */
+  .jumbotron .title {
+    padding: 250px 0;
   }
 }
