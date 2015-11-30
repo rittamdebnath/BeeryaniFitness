@@ -424,22 +424,32 @@ span.blue {
   }
 
   /* line 330, ../scss/main.scss */
+  section.work {
+    padding: 120px 0;
+  }
+
+  /* line 333, ../scss/main.scss */
   section.service {
     padding: 120px 0;
   }
 }
 @media screen and (min-width: 1920px) {
-  /* line 336, ../scss/main.scss */
+  /* line 339, ../scss/main.scss */
   .jumbotron .title {
     padding: 250px 0;
   }
 
-  /* line 340, ../scss/main.scss */
+  /* line 343, ../scss/main.scss */
   section.unique {
     padding: 250px 0;
   }
 
-  /* line 343, ../scss/main.scss */
+  /* line 346, ../scss/main.scss */
+  section.work {
+    padding: 250px 0;
+  }
+
+  /* line 349, ../scss/main.scss */
   section.service {
     padding: 250px 0;
   }
