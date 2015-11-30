@@ -10,13 +10,15 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.0.2/css/hover-min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.css">
   <link rel="stylesheet" href="css/main.css">
 
   <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="js/dir.js" charset="utf-8"></script>
 </head>
 
 <body>
@@ -30,18 +32,18 @@
           </a>
         </div>
         <div class="col-lg-8 text-right">
-          <div class="menu">
+          <div class="menu smooth-scroll">
             <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="">Awesomness</a></li>
-              <li><a href="">About</a></li>
-              <li><a href="">Featured</a></li>
-              <li><a href="">Contact</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#awe">Awesomness</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#featured">Featured</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
         </div>
       </div>
-      <div class="title text-center">
+      <div data-sr class="title text-center">
         <div class="row">
           <div class="col-lg-10 col-lg-push-1">
             <h1>Eat
@@ -79,7 +81,7 @@
       </div>
     </div>
   </section>
-  <section class="unique">
+  <section id="awe" class="unique">
     <div class="container">
       <div class="row m-b-lg">
         <div class="col-lg-10 col-lg-push-1">
@@ -89,7 +91,18 @@
       </div>
       <div class="row m-b-lg">
         <div class="col-md-4">
-          <div class="card">
+          <div class="card hvr-grow">
+            <div class="card-top">
+              <img src="img/1.png" class="" alt="">
+            </div>
+            <div class="card-down">
+              <h4>Eat Junk Food</h4>
+              <p>I ate biryani fifty times in two months and lost weight to prove that one can have their favorite foods and still stay healthy.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card hvr-grow">
             <div class="card-top">
               <img src="img/1.png" class="img-repsonsive" alt="">
             </div>
@@ -100,18 +113,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card">
-            <div class="card-top">
-              <img src="img/1.png" class="img-repsonsive" alt="">
-            </div>
-            <div class="card-down">
-              <h4>Eat Junk Food</h4>
-              <p>I ate biryani fifty times in two months and lost weight to prove that one can have their favorite foods and still stay healthy.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
+          <div class="card hvr-grow">
             <div class="card-top">
               <img src="img/1.png" class="img-repsonsive" alt="">
             </div>
@@ -126,7 +128,7 @@
       <div class="row">
         <div class="col-md-12 col-md-push-2">
           <div class="col-md-4">
-            <div class="card">
+            <div class="card hvr-grow">
               <div class="card-top">
                 <img src="img/1.png" class="img-repsonsive" alt="">
               </div>
@@ -137,7 +139,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card">
+            <div class="card hvr-grow">
               <div class="card-top">
                 <img src="img/1.png" class="img-repsonsive" alt="">
               </div>
@@ -165,7 +167,7 @@
       </div>
     </div>
   </section>
-  <section class="work text-center">
+  <section id="about" class="work text-center">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -202,22 +204,22 @@
         <div class="col-lg-12">
           <div class="col-md-3">
             <a href="#">
-              <img src="img/deccan.png" alt="">
+              <img class="effect-gray" src="img/deccan.png" alt="">
             </a>
           </div>
           <div class="col-md-3">
             <a href="#">
-              <img src="img/express.png" alt="">
+              <img class="effect-gray" src="img/express.png" alt="">
             </a>
           </div>
           <div class="col-md-3">
             <a href="#">
-              <img src="img/huffington.png" alt="">
+              <img class="effect-gray" src="img/huffington.png" alt="">
             </a>
           </div>
           <div class="col-md-3">
             <a href="#">
-              <img src="img/scoop.png" alt="">
+              <img class="effect-gray" src="img/scoop.png" alt="">
             </a>
           </div>
         </div>
@@ -236,7 +238,7 @@
       </div>
     </div>
   </section>
-  <section class="service text-center">
+  <!-- <section class="service text-center">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -261,7 +263,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <section class="contact">
     <div class="container">
@@ -277,6 +279,7 @@
             <p><i class="fa fa-location-arrow"></i> 2nd Floor, SVM Mall, Road Number 36, CBI Colony, Jubilee Hills,Hyderabad, Telangana 500033.</p>
             <p><i class="fa fa-phone"></i> 8977 900 300</p>
             <p><i class="fa fa-envelope"></i> batman@beeryanifitness.com</p>
+            <p><span><a href="#"><i class="fa fa-facebook"></i></a></span>   <span><a href="#"><i class="fa fa-twitter"></i></a></span>   <span><a href="#"><i class="fa fa-google-plus"></i></a></span></p>
           </div>
           <div class="col-md-8 col-md-push-3">
             <form class="form-horizontal">
@@ -340,6 +343,20 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" charset="utf-8"></script>
+  <script>
+    var wow = new WOW();
+    wow.init();
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/plugins/ScrollToPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/plugins/CSSRulePlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/2.3.2/scrollReveal.min.js" charset="utf-8"></script>
+  <script>
+    window.sr = new scrollReveal();
+  </script>
+
+
 </body>
 
 </html>
