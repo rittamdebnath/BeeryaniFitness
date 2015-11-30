@@ -304,7 +304,7 @@ span.blue {
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   .jumbotron {
     .title {
-      padding: 20% 0;
+      padding: 100px 0;
     }
   }
 }
@@ -313,12 +313,12 @@ span.blue {
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
   .jumbotron {
     .title {
-      padding: 20% 0;
+      padding: 100px 0;
     }
   }
 }
 
-@media screen and (max-width:1300px){
+@media screen and (min-width:1326px){
   .jumbotron {
     .title {
       padding: 100px 0;
