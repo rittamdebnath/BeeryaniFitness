@@ -42,7 +42,7 @@ body {
 
 /* line 13, ../scss/main.scss */
 .jumbotron {
-  background: #34495e url(../img/bg_pic2.jpg) no-repeat center bottom;
+  background: #34495e url(../img/bg_pic2.jpg) no-repeat center;
   background-size: cover;
   margin-bottom: 0;
   border-radius: 0;
