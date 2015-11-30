@@ -417,10 +417,30 @@ span.blue {
   .jumbotron .title {
     padding: 120px 0;
   }
+
+  /* line 327, ../scss/main.scss */
+  section.unique {
+    padding: 120px 0;
+  }
+
+  /* line 330, ../scss/main.scss */
+  section.service {
+    padding: 120px 0;
+  }
 }
 @media screen and (min-width: 1920px) {
-  /* line 330, ../scss/main.scss */
+  /* line 336, ../scss/main.scss */
   .jumbotron .title {
+    padding: 250px 0;
+  }
+
+  /* line 340, ../scss/main.scss */
+  section.unique {
+    padding: 250px 0;
+  }
+
+  /* line 343, ../scss/main.scss */
+  section.service {
     padding: 250px 0;
   }
 }

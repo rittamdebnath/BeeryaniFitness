@@ -324,11 +324,23 @@ span.blue {
       padding: 120px 0;
     }
   }
+  section.unique{
+    padding:120px 0;
+  }
+  section.service{
+    padding:120px 0;
+  }
 }
 @media screen and (min-width:1920px){
   .jumbotron {
     .title {
       padding: 250px 0;
     }
+  }
+  section.unique{
+    padding:250px 0;
+  }
+  section.service{
+    padding:250px 0;
   }
 }
