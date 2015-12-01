@@ -11,8 +11,9 @@ body {
   line-height: 26px;
 }
 .jumbotron {
-  background: $wet-asphalt url(../img/bg_pic2.jpg) no-repeat center;
+  background: $wet-asphalt url(../img/banner.png) no-repeat center;
   background-size: cover;
+  background-blend-mode: soft-light;
   margin-bottom: 0;
   border-radius: 0;
   color: #fff;
@@ -20,8 +21,12 @@ body {
   .title {
     padding: 250px 0;
   }
+  .s-title-bold{
+    font-weight:600;
+  }
   .menu>ul {
-    vertical-align: middle;
+    vertical-align: bottom;
+    padding:36px 0;
     li {
       display: inline-block;
       list-style-type: none;
@@ -32,22 +37,6 @@ body {
         font-size: 20px;
         font-weight: 200;
         text-decoration: none;
-      }
-      a:after {
-        bottom: 0;
-        left: 0;
-        width: 1.875em;
-        height: 0.125em;
-        background: #fff;
-        content: '';
-        -webkit-transition: transform 0.3s;
-        -moz-transition: transform 0.3s;
-        -ms-transform: transform 0.3s;
-        transition: transform 0.3s;
-        -webkit-transform: translate3d(-101%, 0, 0);
-        -moz-transform: translate3d(-101%, 0, 0);
-        -ms-transform: translate3d(-101%, 0, 0);
-        /* transform: translate3d(-101%, 0, 0); */
       }
     }
   }
@@ -149,13 +138,16 @@ section.do {
   }
 }
 section.unique {
-  background: $wet-asphalt url(../img/girls.jpg) no-repeat center bottom;
+  background: $wet-asphalt url(../img/bg2.png) no-repeat center bottom;
   background-size: cover;
   background-blend-mode: soft-light;
   margin-bottom: 0;
   border-radius: 0;
   color: #fff;
   padding: 250px 0;
+  .s-title{
+    margin-bottom:40px;
+  }
   .card {
     text-align: center;
     margin: 0 auto;
@@ -206,7 +198,7 @@ section.quote {
 }
 section.work {
   padding: 250px 0;
-  background: $wet-asphalt url(../img/2.jpg) no-repeat top center;
+  background: $wet-asphalt url(../img/bg1.png) no-repeat top center;
   background-blend-mode: soft-light;
   background-size: cover;
   margin-bottom: 0;
