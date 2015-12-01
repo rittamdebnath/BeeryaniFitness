@@ -324,8 +324,8 @@ section.featured img.effect-gray:hover {
 /* line 243, ../scss/main.scss */
 section.video {
   padding: 40px 0;
-  background: #34495e url(../img/miranda.jpg) no-repeat top center;
-  background-blend-mode: lighten;
+  background: #e67e22 no-repeat top center;
+  background-blend-mode: hard-light;
   background-size: cover;
   margin-bottom: 0;
   border-radius: 0;
@@ -363,92 +363,128 @@ section.service p {
   line-height: 1.6;
 }
 
-/* line 278, ../scss/main.scss */
+/* line 279, ../scss/main.scss */
 section.contact {
   padding: 20px 0;
 }
-/* line 280, ../scss/main.scss */
-section.contact .band {
-  font-size: 18px;
-  color: #34495e;
-  font-weight: 400;
+/* line 281, ../scss/main.scss */
+section.contact .s-title {
+  margin-bottom: 40px;
 }
-/* line 285, ../scss/main.scss */
-section.contact input {
-  padding: 20px 10;
+/* line 286, ../scss/main.scss */
+section.contact .contact-form .form-group .form-control {
+  border-radius: 0;
+  border: 2px solid #868686;
+  padding: 22px 12px;
+  text-transform: uppercase;
+  transition: all .1s ease-in-out;
+}
+/* line 293, ../scss/main.scss */
+section.contact .contact-form .form-group .form-control:focus, section.contact .contact-form .form-group .form-control:active, section.contact .contact-form .form-group .form-control:hover {
+  border-color: #e67e22;
+}
+/* line 297, ../scss/main.scss */
+section.contact .contact-form .butn {
+  border-radius: 0;
+  border: 1px solid #e67e22;
+  color: #e67e22;
+  text-transform: uppercase;
+  background-color: transparent;
+  padding: 10px 20px;
+  transition: all .2s ease-in-out;
+}
+/* line 306, ../scss/main.scss */
+section.contact .contact-form .butn:hover {
+  background-color: #e67e22;
+  color: #fff;
+}
+/* line 312, ../scss/main.scss */
+section.contact .small-talk p {
+  font-size: 18px;
+  color: #868686;
+  font-weight: 400;
+  line-height: 1.8;
+}
+/* line 320, ../scss/main.scss */
+section.contact .small-talk p span:first-child {
+  margin-left: 0px;
+}
+/* line 323, ../scss/main.scss */
+section.contact .small-talk p span {
+  margin-left: 16px;
 }
 
-/* line 289, ../scss/main.scss */
+/* line 330, ../scss/main.scss */
 footer {
   color: #34495e;
 }
 
-/* line 292, ../scss/main.scss */
+/* line 333, ../scss/main.scss */
 .m-b-lg {
   margin-bottom: 20px;
 }
 
-/* line 295, ../scss/main.scss */
+/* line 336, ../scss/main.scss */
 span.blue {
   color: #339beb;
 }
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
-  /* line 303, ../scss/main.scss */
+  /* line 344, ../scss/main.scss */
   .jumbotron .title {
     padding: 100px 0;
   }
 }
 /* ----------- Retina Screens ----------- */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
-  /* line 312, ../scss/main.scss */
+  /* line 353, ../scss/main.scss */
   .jumbotron .title {
     padding: 100px 0;
   }
 }
 @media screen and (min-width: 1300px) {
-  /* line 320, ../scss/main.scss */
+  /* line 361, ../scss/main.scss */
   .jumbotron .title {
     padding: 120px 0;
   }
 
-  /* line 324, ../scss/main.scss */
+  /* line 365, ../scss/main.scss */
   section.unique {
     padding: 60px 0;
   }
 
-  /* line 327, ../scss/main.scss */
+  /* line 368, ../scss/main.scss */
   section.work {
     padding: 60px 0;
   }
 
-  /* line 330, ../scss/main.scss */
+  /* line 371, ../scss/main.scss */
   section.service {
     padding: 60px 0;
   }
 }
 @media screen and (min-width: 1920px) {
-  /* line 336, ../scss/main.scss */
+  /* line 377, ../scss/main.scss */
   .jumbotron .title {
     padding: 250px 0;
   }
-  /* line 339, ../scss/main.scss */
+  /* line 380, ../scss/main.scss */
   .jumbotron .menu > ul {
     text-align: right;
   }
 
-  /* line 343, ../scss/main.scss */
+  /* line 384, ../scss/main.scss */
   section.unique {
     padding: 250px 0;
   }
 
-  /* line 346, ../scss/main.scss */
+  /* line 387, ../scss/main.scss */
   section.work {
     padding: 250px 0;
   }
 
-  /* line 349, ../scss/main.scss */
+  /* line 390, ../scss/main.scss */
   section.service {
     padding: 250px 0;
   }
@@ -465,37 +501,37 @@ span.blue {
 /* Portrait and Landscape */
 /* Portrait */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  /* line 424, ../scss/main.scss */
+  /* line 465, ../scss/main.scss */
   .jumbotron {
     min-height: 100vh;
   }
-  /* line 426, ../scss/main.scss */
+  /* line 467, ../scss/main.scss */
   .jumbotron .menu {
     text-align: center;
   }
-  /* line 429, ../scss/main.scss */
+  /* line 470, ../scss/main.scss */
   .jumbotron .menu > ul {
     margin-left: 10px;
   }
-  /* line 432, ../scss/main.scss */
+  /* line 473, ../scss/main.scss */
   .jumbotron .title {
     padding: 35px 0;
   }
-  /* line 435, ../scss/main.scss */
+  /* line 476, ../scss/main.scss */
   .jumbotron img {
     margin-left: 65px;
   }
 
-  /* line 441, ../scss/main.scss */
+  /* line 482, ../scss/main.scss */
   section.do p {
     font-size: 18px;
   }
 
-  /* line 447, ../scss/main.scss */
+  /* line 488, ../scss/main.scss */
   section.quote p.b-quote {
     font-size: 28px;
   }
-  /* line 450, ../scss/main.scss */
+  /* line 491, ../scss/main.scss */
   section.quote p.sub-quote {
     font-size: 23px;
   }

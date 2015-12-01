@@ -242,8 +242,8 @@ section.featured {
 }
 section.video {
   padding: 40px 0;
-  background: $wet-asphalt url(../img/miranda.jpg) no-repeat top center;
-  background-blend-mode: lighten;
+  background: $carrot no-repeat top center;
+  background-blend-mode: hard-light;
   background-size: cover;
   margin-bottom: 0;
   border-radius: 0;
@@ -275,16 +275,57 @@ section.service {
     line-height: 1.6;
   }
 }
+
 section.contact {
   padding: 20px 0;
-  .band {
-    font-size: 18px;
-    color: $wet-asphalt;
-    font-weight: 400;
+  .s-title{
+    margin-bottom:40px;
   }
-  input {
-    padding: 20px 10;
+  .contact-form{
+    .form-group{
+      .form-control{
+        border-radius: 0;
+        border:2px solid $grey;
+        padding:22px 12px;
+        text-transform: uppercase;
+        transition: all .1s ease-in-out;
+      }
+      .form-control:focus,.form-control:active,.form-control:hover{
+        border-color:$carrot;
+      }
+    }
+    .butn{
+      border-radius: 0;
+      border:1px solid $carrot;
+      color:$carrot;
+      text-transform: uppercase;
+      background-color: transparent;
+      padding:10px 20px;
+      transition: all .2s ease-in-out;
+    }
+    .butn:hover{
+      background-color:$carrot;
+      color:#fff;
+    }
   }
+  .small-talk{
+    p{
+      font-size:18px;
+      color:$grey;
+      font-weight: 400;
+      line-height: 1.8;
+    }
+
+    p{
+      span:first-child{
+        margin-left: 0px;
+      }
+      span{
+        margin-left:16px;
+      }
+    }
+  }
+
 }
 footer {
   color: $wet-asphalt;
