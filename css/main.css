@@ -39,7 +39,7 @@ body {
 
 /* line 13, ../scss/main.scss */
 .jumbotron {
-  background: #34495e url(../img/banner.png) no-repeat center;
+  background: #34495e url(../img/banner.png) no-repeat bottom left;
   background-size: cover;
   background-blend-mode: soft-light;
   margin-bottom: 0;
