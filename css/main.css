@@ -73,21 +73,26 @@ body {
   font-size: 20px;
   font-weight: 200;
   text-decoration: none;
+  transition: all .1s ease-in-out;
 }
 /* line 43, ../scss/main.scss */
+.jumbotron .menu > ul li a:hover {
+  color: #e67e22;
+}
+/* line 48, ../scss/main.scss */
 .jumbotron p {
   font-weight: 200;
   font-size: 20px;
   line-height: 1.6;
 }
 
-/* line 51, ../scss/main.scss */
+/* line 56, ../scss/main.scss */
 li:first-child {
   margin-left: 0;
 }
 
 @-moz-keyframes bounce {
-  /* line 61, ../scss/main.scss */
+  /* line 66, ../scss/main.scss */
   0%,
   20%,
   50%,
@@ -97,13 +102,13 @@ li:first-child {
     transform: translateY(0);
   }
 
-  /* line 65, ../scss/main.scss */
+  /* line 70, ../scss/main.scss */
   40% {
     -moz-transform: translateY(-30px);
     transform: translateY(-30px);
   }
 
-  /* line 69, ../scss/main.scss */
+  /* line 74, ../scss/main.scss */
   60% {
     -moz-transform: translateY(-15px);
     transform: translateY(-15px);
@@ -111,7 +116,7 @@ li:first-child {
 }
 
 @-webkit-keyframes bounce {
-  /* line 79, ../scss/main.scss */
+  /* line 84, ../scss/main.scss */
   0%,
   20%,
   50%,
@@ -121,13 +126,13 @@ li:first-child {
     transform: translateY(0);
   }
 
-  /* line 83, ../scss/main.scss */
+  /* line 88, ../scss/main.scss */
   40% {
     -webkit-transform: translateY(-30px);
     transform: translateY(-30px);
   }
 
-  /* line 87, ../scss/main.scss */
+  /* line 92, ../scss/main.scss */
   60% {
     -webkit-transform: translateY(-15px);
     transform: translateY(-15px);
@@ -135,7 +140,7 @@ li:first-child {
 }
 
 @keyframes bounce {
-  /* line 97, ../scss/main.scss */
+  /* line 102, ../scss/main.scss */
   0%,
   20%,
   50%,
@@ -147,7 +152,7 @@ li:first-child {
     transform: translateY(0);
   }
 
-  /* line 103, ../scss/main.scss */
+  /* line 108, ../scss/main.scss */
   40% {
     -moz-transform: translateY(-30px);
     -ms-transform: translateY(-30px);
@@ -155,7 +160,7 @@ li:first-child {
     transform: translateY(-30px);
   }
 
-  /* line 109, ../scss/main.scss */
+  /* line 114, ../scss/main.scss */
   60% {
     -moz-transform: translateY(-15px);
     -ms-transform: translateY(-15px);
@@ -164,7 +169,7 @@ li:first-child {
   }
 }
 
-/* line 116, ../scss/main.scss */
+/* line 121, ../scss/main.scss */
 .arrow {
   position: relative;
   bottom: 0;
@@ -176,18 +181,18 @@ li:first-child {
   background-size: contain;
 }
 
-/* line 126, ../scss/main.scss */
+/* line 131, ../scss/main.scss */
 .bounce {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
 }
 
-/* line 131, ../scss/main.scss */
+/* line 136, ../scss/main.scss */
 section.do {
   padding: 60px 0;
 }
-/* line 133, ../scss/main.scss */
+/* line 138, ../scss/main.scss */
 section.do p {
   font-size: 30px;
   font-weight: 200;
@@ -195,7 +200,7 @@ section.do p {
   color: #868686;
 }
 
-/* line 140, ../scss/main.scss */
+/* line 145, ../scss/main.scss */
 section.unique {
   background: #34495e url(../img/bg2.png) no-repeat center bottom;
   background-size: cover;
@@ -205,34 +210,34 @@ section.unique {
   color: #fff;
   padding: 250px 0;
 }
-/* line 148, ../scss/main.scss */
+/* line 153, ../scss/main.scss */
 section.unique .s-title {
   margin-bottom: 40px;
 }
-/* line 151, ../scss/main.scss */
+/* line 156, ../scss/main.scss */
 section.unique .card {
   text-align: center;
   margin: 0 auto;
 }
-/* line 155, ../scss/main.scss */
+/* line 160, ../scss/main.scss */
 section.unique .card .card-down h4 {
   font-size: 22px;
   font-weight: 400;
   line-height: 1.8;
 }
-/* line 160, ../scss/main.scss */
+/* line 165, ../scss/main.scss */
 section.unique .card .card-down p {
   font-size: 18px;
   font-weight: 100;
   line-height: 1.6;
 }
 
-/* line 168, ../scss/main.scss */
+/* line 173, ../scss/main.scss */
 .m-0 {
   margin: 0 auto !important;
 }
 
-/* line 171, ../scss/main.scss */
+/* line 176, ../scss/main.scss */
 .s-title {
   font-size: 40px;
   text-transform: uppercase;
@@ -241,34 +246,34 @@ section.unique .card .card-down p {
   text-align: center;
 }
 
-/* line 178, ../scss/main.scss */
+/* line 183, ../scss/main.scss */
 section.quote {
   padding: 60px 0;
   background-color: #ecf0f1;
 }
-/* line 181, ../scss/main.scss */
+/* line 186, ../scss/main.scss */
 section.quote p.b-quote {
   font-size: 40px;
   font-weight: 600;
   line-height: 1.5;
 }
-/* line 186, ../scss/main.scss */
+/* line 191, ../scss/main.scss */
 section.quote p.sub-quote {
   font-size: 30px;
   font-weight: 200;
   line-height: 1.5;
   color: #868686;
 }
-/* line 192, ../scss/main.scss */
+/* line 197, ../scss/main.scss */
 section.quote .b-quote::after {
   content: close-quote;
 }
-/* line 195, ../scss/main.scss */
+/* line 200, ../scss/main.scss */
 section.quote .b-quote::before {
   content: open-quote;
 }
 
-/* line 199, ../scss/main.scss */
+/* line 204, ../scss/main.scss */
 section.work {
   padding: 250px 0;
   background: #34495e url(../img/bg1.png) no-repeat top center;
@@ -278,28 +283,28 @@ section.work {
   border-radius: 0;
   color: #fff;
 }
-/* line 207, ../scss/main.scss */
+/* line 212, ../scss/main.scss */
 section.work h1 {
   font-size: 40px;
   font-weight: bold;
 }
-/* line 211, ../scss/main.scss */
+/* line 216, ../scss/main.scss */
 section.work p {
   font-weight: 200;
   font-size: 26px;
   line-height: 1.6;
 }
-/* line 216, ../scss/main.scss */
+/* line 221, ../scss/main.scss */
 section.work hr.strike-through {
   width: 100%;
   height: 2px;
 }
 
-/* line 221, ../scss/main.scss */
+/* line 226, ../scss/main.scss */
 section.featured {
   padding: 20px 0;
 }
-/* line 223, ../scss/main.scss */
+/* line 228, ../scss/main.scss */
 section.featured img.effect-gray {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
@@ -309,14 +314,14 @@ section.featured img.effect-gray {
   -webkit-transition: all 0.6s ease;
   /* Transition for Webkit browsers */
 }
-/* line 232, ../scss/main.scss */
+/* line 237, ../scss/main.scss */
 section.featured img.effect-gray:hover {
   filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
   filter: none;
 }
 
-/* line 238, ../scss/main.scss */
+/* line 243, ../scss/main.scss */
 section.video {
   padding: 40px 0;
   background: #34495e url(../img/miranda.jpg) no-repeat top center;
@@ -326,7 +331,7 @@ section.video {
   border-radius: 0;
   color: #fff;
 }
-/* line 246, ../scss/main.scss */
+/* line 251, ../scss/main.scss */
 section.video video {
   background: transparent;
   border-radius: 6px;
@@ -336,7 +341,7 @@ section.video video {
   box-shadow: rgba(0, 0, 0, 0.2) 0 25px 50px 0;
 }
 
-/* line 255, ../scss/main.scss */
+/* line 260, ../scss/main.scss */
 section.service {
   padding: 250px 0;
   background: #34495e url(../img/2.jpg) no-repeat top center;
@@ -346,101 +351,156 @@ section.service {
   border-radius: 0;
   color: #fff;
 }
-/* line 263, ../scss/main.scss */
+/* line 268, ../scss/main.scss */
 section.service h1 {
   font-size: 40px;
   font-weight: bold;
 }
-/* line 267, ../scss/main.scss */
+/* line 272, ../scss/main.scss */
 section.service p {
   font-weight: 200;
   font-size: 26px;
   line-height: 1.6;
 }
 
-/* line 273, ../scss/main.scss */
+/* line 278, ../scss/main.scss */
 section.contact {
   padding: 20px 0;
 }
-/* line 275, ../scss/main.scss */
+/* line 280, ../scss/main.scss */
 section.contact .band {
   font-size: 18px;
   color: #34495e;
   font-weight: 400;
 }
-/* line 280, ../scss/main.scss */
+/* line 285, ../scss/main.scss */
 section.contact input {
   padding: 20px 10;
 }
 
-/* line 284, ../scss/main.scss */
+/* line 289, ../scss/main.scss */
 footer {
   color: #34495e;
 }
 
-/* line 287, ../scss/main.scss */
+/* line 292, ../scss/main.scss */
 .m-b-lg {
   margin-bottom: 20px;
 }
 
-/* line 290, ../scss/main.scss */
+/* line 295, ../scss/main.scss */
 span.blue {
   color: #339beb;
 }
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
-  /* line 298, ../scss/main.scss */
+  /* line 303, ../scss/main.scss */
   .jumbotron .title {
     padding: 100px 0;
   }
 }
 /* ----------- Retina Screens ----------- */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
-  /* line 307, ../scss/main.scss */
+  /* line 312, ../scss/main.scss */
   .jumbotron .title {
     padding: 100px 0;
   }
 }
 @media screen and (min-width: 1300px) {
-  /* line 315, ../scss/main.scss */
+  /* line 320, ../scss/main.scss */
   .jumbotron .title {
     padding: 120px 0;
   }
 
-  /* line 319, ../scss/main.scss */
+  /* line 324, ../scss/main.scss */
   section.unique {
     padding: 60px 0;
   }
 
-  /* line 322, ../scss/main.scss */
+  /* line 327, ../scss/main.scss */
   section.work {
     padding: 60px 0;
   }
 
-  /* line 325, ../scss/main.scss */
+  /* line 330, ../scss/main.scss */
   section.service {
     padding: 60px 0;
   }
 }
 @media screen and (min-width: 1920px) {
-  /* line 331, ../scss/main.scss */
+  /* line 336, ../scss/main.scss */
   .jumbotron .title {
     padding: 250px 0;
   }
+  /* line 339, ../scss/main.scss */
+  .jumbotron .menu > ul {
+    text-align: right;
+  }
 
-  /* line 335, ../scss/main.scss */
+  /* line 343, ../scss/main.scss */
   section.unique {
     padding: 250px 0;
   }
 
-  /* line 338, ../scss/main.scss */
+  /* line 346, ../scss/main.scss */
   section.work {
     padding: 250px 0;
   }
 
-  /* line 341, ../scss/main.scss */
+  /* line 349, ../scss/main.scss */
   section.service {
     padding: 250px 0;
   }
 }
+/* ----------- iPhone 4 and 4S ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/* ----------- iPhone 5 and 5S ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/* ----------- iPhone 6 ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  /* line 424, ../scss/main.scss */
+  .jumbotron {
+    min-height: 100vh;
+  }
+  /* line 426, ../scss/main.scss */
+  .jumbotron .menu {
+    text-align: center;
+  }
+  /* line 429, ../scss/main.scss */
+  .jumbotron .menu > ul {
+    margin-left: 10px;
+  }
+  /* line 432, ../scss/main.scss */
+  .jumbotron .title {
+    padding: 35px 0;
+  }
+  /* line 435, ../scss/main.scss */
+  .jumbotron img {
+    margin-left: 65px;
+  }
+
+  /* line 441, ../scss/main.scss */
+  section.do p {
+    font-size: 18px;
+  }
+
+  /* line 447, ../scss/main.scss */
+  section.quote p.b-quote {
+    font-size: 28px;
+  }
+  /* line 450, ../scss/main.scss */
+  section.quote p.sub-quote {
+    font-size: 23px;
+  }
+}
+/* ----------- iPhone 6+ ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
