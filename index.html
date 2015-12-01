@@ -194,7 +194,7 @@
       </div>
     </div>
   </section>
-  <section class="featured">
+  <section class="featured" id="featured">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -204,22 +204,22 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="col-md-3">
-            <a href="http://goo.gl/2wZ6Jt">
+            <a href="http://goo.gl/2wZ6Jt" target="_blank">
               <img class="effect-gray" src="img/deccan.png" alt="">
             </a>
           </div>
           <div class="col-md-3">
-            <a href="https://goo.gl/u7jzz7">
+            <a href="https://goo.gl/u7jzz7" target="_blank">
               <img class="effect-gray" src="img/express.png" alt="">
             </a>
           </div>
           <div class="col-md-3">
-            <a href="http://www.huffingtonpost.in/nishanth-appari/">
+            <a href="http://www.huffingtonpost.in/nishanth-appari/" target="_blank">
               <img class="effect-gray" src="img/huffington.png" alt="">
             </a>
           </div>
           <div class="col-md-3">
-            <a href="http://goo.gl/uChDyj">
+            <a href="http://goo.gl/uChDyj" target="_blank">
               <img class="effect-gray" src="img/scoop.png" alt="">
             </a>
           </div>
@@ -227,7 +227,7 @@
       </div>
     </div>
   </section>
-  <section class="video">
+  <section class="video" id="contact">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -346,19 +346,34 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" charset="utf-8"></script>
   <script>
     var wow = new WOW();
     wow.init();
   </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/plugins/ScrollToPlugin.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/plugins/CSSRulePlugin.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/2.3.2/scrollReveal.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" charset="utf-8"></script>
   <script>
     window.sr = new scrollReveal();
   </script>
 
+  <script>
+    $(function() {
+      $('ul a').bind('click', function(event) {
+        var $anchor = $(this);
+
+        $('html, body').stop().animate({
+          scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        /*
+        if you don't want to use the easing effects:
+        $('html, body').stop().animate({
+        	scrollTop: $($anchor.attr('href')).offset().top
+        }, 1000);
+        */
+        event.preventDefault();
+      });
+    });
+  </script>
 
 </body>
 
