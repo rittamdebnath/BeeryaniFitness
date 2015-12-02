@@ -221,13 +221,13 @@ section.unique .card {
 }
 /* line 160, ../scss/main.scss */
 section.unique .card .card-down h4 {
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 1.8;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1.4;
 }
 /* line 165, ../scss/main.scss */
 section.unique .card .card-down p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 100;
   line-height: 1.6;
 }
@@ -292,11 +292,11 @@ section.work h1 {
 section.work p {
   font-weight: 200;
   font-size: 26px;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 /* line 221, ../scss/main.scss */
 section.work hr.strike-through {
-  width: 100%;
+  width: 70%;
   height: 2px;
 }
 
@@ -324,8 +324,8 @@ section.featured img.effect-gray:hover {
 /* line 243, ../scss/main.scss */
 section.video {
   padding: 40px 0;
-  background: #e67e22 no-repeat top center;
-  background-blend-mode: hard-light;
+  background: #34495e url(../img/wall-climb.jpg) no-repeat top center;
+  background-blend-mode: soft-light;
   background-size: cover;
   margin-bottom: 0;
   border-radius: 0;
@@ -426,7 +426,7 @@ footer {
 
 /* line 336, ../scss/main.scss */
 span.blue {
-  color: #339beb;
+  color: #e67e22;
 }
 
 /* ----------- Non-Retina Screens ----------- */

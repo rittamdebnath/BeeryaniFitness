@@ -158,12 +158,12 @@ section.unique {
     margin: 0 auto;
     .card-down {
       h4 {
-        font-size: 22px;
-        font-weight: 400;
-        line-height: 1.8;
+        font-size: 28px;
+        font-weight: 300;
+        line-height: 1.4;
       }
       p {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 100;
         line-height: 1.6;
       }
@@ -216,10 +216,10 @@ section.work {
   p {
     font-weight: 200;
     font-size: 26px;
-    line-height: 1.6;
+    line-height: 1.5;
   }
   hr.strike-through {
-    width: 100%;
+    width: 70%;
     height: 2px;
   }
 }
@@ -242,8 +242,8 @@ section.featured {
 }
 section.video {
   padding: 40px 0;
-  background: $carrot no-repeat top center;
-  background-blend-mode: hard-light;
+  background: $wet-asphalt url(../img/wall-climb.jpg) no-repeat top center;
+  background-blend-mode: soft-light;
   background-size: cover;
   margin-bottom: 0;
   border-radius: 0;
@@ -334,7 +334,7 @@ footer {
   margin-bottom: 20px;
 }
 span.blue {
-  color: $cyan;
+  color: $carrot;
 }
 
 //media-query
