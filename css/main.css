@@ -73,26 +73,26 @@ body {
   font-size: 20px;
   font-weight: 200;
   text-decoration: none;
-  transition: all .1s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
-/* line 43, ../scss/main.scss */
+/* line 42, ../scss/main.scss */
 .jumbotron .menu > ul li a:hover {
   color: #e67e22;
 }
-/* line 48, ../scss/main.scss */
+/* line 47, ../scss/main.scss */
 .jumbotron p {
   font-weight: 200;
   font-size: 20px;
   line-height: 1.6;
 }
 
-/* line 56, ../scss/main.scss */
+/* line 55, ../scss/main.scss */
 li:first-child {
   margin-left: 0;
 }
 
 @-moz-keyframes bounce {
-  /* line 66, ../scss/main.scss */
+  /* line 65, ../scss/main.scss */
   0%,
   20%,
   50%,
@@ -102,13 +102,13 @@ li:first-child {
     transform: translateY(0);
   }
 
-  /* line 70, ../scss/main.scss */
+  /* line 69, ../scss/main.scss */
   40% {
     -moz-transform: translateY(-30px);
     transform: translateY(-30px);
   }
 
-  /* line 74, ../scss/main.scss */
+  /* line 73, ../scss/main.scss */
   60% {
     -moz-transform: translateY(-15px);
     transform: translateY(-15px);
@@ -116,7 +116,7 @@ li:first-child {
 }
 
 @-webkit-keyframes bounce {
-  /* line 84, ../scss/main.scss */
+  /* line 83, ../scss/main.scss */
   0%,
   20%,
   50%,
@@ -126,13 +126,13 @@ li:first-child {
     transform: translateY(0);
   }
 
-  /* line 88, ../scss/main.scss */
+  /* line 87, ../scss/main.scss */
   40% {
     -webkit-transform: translateY(-30px);
     transform: translateY(-30px);
   }
 
-  /* line 92, ../scss/main.scss */
+  /* line 91, ../scss/main.scss */
   60% {
     -webkit-transform: translateY(-15px);
     transform: translateY(-15px);
@@ -140,7 +140,7 @@ li:first-child {
 }
 
 @keyframes bounce {
-  /* line 102, ../scss/main.scss */
+  /* line 101, ../scss/main.scss */
   0%,
   20%,
   50%,
@@ -152,7 +152,7 @@ li:first-child {
     transform: translateY(0);
   }
 
-  /* line 108, ../scss/main.scss */
+  /* line 107, ../scss/main.scss */
   40% {
     -moz-transform: translateY(-30px);
     -ms-transform: translateY(-30px);
@@ -160,7 +160,7 @@ li:first-child {
     transform: translateY(-30px);
   }
 
-  /* line 114, ../scss/main.scss */
+  /* line 113, ../scss/main.scss */
   60% {
     -moz-transform: translateY(-15px);
     -ms-transform: translateY(-15px);
@@ -169,7 +169,7 @@ li:first-child {
   }
 }
 
-/* line 121, ../scss/main.scss */
+/* line 120, ../scss/main.scss */
 .arrow {
   position: relative;
   bottom: 0;
@@ -181,18 +181,18 @@ li:first-child {
   background-size: contain;
 }
 
-/* line 131, ../scss/main.scss */
+/* line 130, ../scss/main.scss */
 .bounce {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
 }
 
-/* line 136, ../scss/main.scss */
+/* line 135, ../scss/main.scss */
 section.do {
   padding: 60px 0;
 }
-/* line 138, ../scss/main.scss */
+/* line 137, ../scss/main.scss */
 section.do p {
   font-size: 30px;
   font-weight: 200;
@@ -200,7 +200,7 @@ section.do p {
   color: #564B4B;
 }
 
-/* line 145, ../scss/main.scss */
+/* line 144, ../scss/main.scss */
 section.unique {
   background: #34495e url(../img/bg2.png) no-repeat center bottom;
   background-size: cover;
@@ -210,34 +210,34 @@ section.unique {
   color: #fff;
   padding: 250px 0;
 }
-/* line 153, ../scss/main.scss */
+/* line 152, ../scss/main.scss */
 section.unique .s-title {
   margin-bottom: 40px;
 }
-/* line 156, ../scss/main.scss */
+/* line 155, ../scss/main.scss */
 section.unique .card {
   text-align: center;
   margin: 0 auto;
 }
-/* line 160, ../scss/main.scss */
+/* line 159, ../scss/main.scss */
 section.unique .card .card-down h4 {
   font-size: 28px;
   font-weight: 300;
   line-height: 1.4;
 }
-/* line 165, ../scss/main.scss */
+/* line 164, ../scss/main.scss */
 section.unique .card .card-down p {
   font-size: 16px;
   font-weight: 100;
   line-height: 1.6;
 }
 
-/* line 173, ../scss/main.scss */
+/* line 172, ../scss/main.scss */
 .m-0 {
   margin: 0 auto !important;
 }
 
-/* line 176, ../scss/main.scss */
+/* line 175, ../scss/main.scss */
 .s-title {
   font-size: 40px;
   text-transform: uppercase;
@@ -246,34 +246,34 @@ section.unique .card .card-down p {
   text-align: center;
 }
 
-/* line 183, ../scss/main.scss */
+/* line 182, ../scss/main.scss */
 section.quote {
   padding: 60px 0;
   background-color: #ecf0f1;
 }
-/* line 186, ../scss/main.scss */
+/* line 185, ../scss/main.scss */
 section.quote p.b-quote {
   font-size: 40px;
   font-weight: 600;
   line-height: 1.5;
 }
-/* line 191, ../scss/main.scss */
+/* line 190, ../scss/main.scss */
 section.quote p.sub-quote {
   font-size: 30px;
   font-weight: 200;
   line-height: 1.5;
   color: #868686;
 }
-/* line 197, ../scss/main.scss */
+/* line 196, ../scss/main.scss */
 section.quote .b-quote::after {
   content: close-quote;
 }
-/* line 200, ../scss/main.scss */
+/* line 199, ../scss/main.scss */
 section.quote .b-quote::before {
   content: open-quote;
 }
 
-/* line 204, ../scss/main.scss */
+/* line 203, ../scss/main.scss */
 section.work {
   padding: 250px 0;
   background: #34495e url(../img/bg1.png) no-repeat top center;
@@ -283,28 +283,33 @@ section.work {
   border-radius: 0;
   color: #fff;
 }
-/* line 212, ../scss/main.scss */
+/* line 211, ../scss/main.scss */
 section.work h1 {
   font-size: 40px;
   font-weight: bold;
 }
-/* line 216, ../scss/main.scss */
+/* line 215, ../scss/main.scss */
 section.work p {
   font-weight: 200;
   font-size: 26px;
   line-height: 1.5;
 }
-/* line 221, ../scss/main.scss */
+/* line 220, ../scss/main.scss */
+section.work ul > li {
+  padding-bottom: 8px;
+  list-style: none;
+}
+/* line 224, ../scss/main.scss */
 section.work hr.strike-through {
   width: 70%;
   height: 2px;
 }
 
-/* line 226, ../scss/main.scss */
+/* line 229, ../scss/main.scss */
 section.featured {
   padding: 20px 0;
 }
-/* line 228, ../scss/main.scss */
+/* line 231, ../scss/main.scss */
 section.featured img.effect-gray {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
@@ -314,14 +319,14 @@ section.featured img.effect-gray {
   -webkit-transition: all 0.6s ease;
   /* Transition for Webkit browsers */
 }
-/* line 237, ../scss/main.scss */
+/* line 240, ../scss/main.scss */
 section.featured img.effect-gray:hover {
   filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
   filter: none;
 }
 
-/* line 243, ../scss/main.scss */
+/* line 246, ../scss/main.scss */
 section.video {
   padding: 40px 0;
   background: #34495e url(../img/wall-climb.jpg) no-repeat top center;
@@ -331,7 +336,7 @@ section.video {
   border-radius: 0;
   color: #fff;
 }
-/* line 251, ../scss/main.scss */
+/* line 254, ../scss/main.scss */
 section.video video {
   background: transparent;
   border-radius: 6px;
@@ -341,7 +346,7 @@ section.video video {
   box-shadow: rgba(0, 0, 0, 0.2) 0 25px 50px 0;
 }
 
-/* line 260, ../scss/main.scss */
+/* line 263, ../scss/main.scss */
 section.service {
   padding: 250px 0;
   background: #34495e url(../img/2.jpg) no-repeat top center;
@@ -351,39 +356,41 @@ section.service {
   border-radius: 0;
   color: #fff;
 }
-/* line 268, ../scss/main.scss */
+/* line 271, ../scss/main.scss */
 section.service h1 {
   font-size: 40px;
   font-weight: bold;
 }
-/* line 272, ../scss/main.scss */
+/* line 275, ../scss/main.scss */
 section.service p {
   font-weight: 200;
   font-size: 26px;
   line-height: 1.6;
 }
 
-/* line 279, ../scss/main.scss */
+/* line 281, ../scss/main.scss */
 section.contact {
   padding: 20px 0;
 }
-/* line 281, ../scss/main.scss */
+/* line 283, ../scss/main.scss */
 section.contact .s-title {
   margin-bottom: 40px;
 }
-/* line 286, ../scss/main.scss */
+/* line 288, ../scss/main.scss */
 section.contact .contact-form .form-group .form-control {
   border-radius: 0;
   border: 2px solid #868686;
   padding: 22px 12px;
   text-transform: uppercase;
-  transition: all .1s ease-in-out;
-}
-/* line 293, ../scss/main.scss */
-section.contact .contact-form .form-group .form-control:focus, section.contact .contact-form .form-group .form-control:active, section.contact .contact-form .form-group .form-control:hover {
-  border-color: #e67e22;
+  transition: all 0.1s ease-in-out;
 }
 /* line 297, ../scss/main.scss */
+section.contact .contact-form .form-group .form-control:focus,
+section.contact .contact-form .form-group .form-control:active,
+section.contact .contact-form .form-group .form-control:hover {
+  border-color: #e67e22;
+}
+/* line 301, ../scss/main.scss */
 section.contact .contact-form .butn {
   border-radius: 0;
   border: 1px solid #e67e22;
@@ -391,100 +398,100 @@ section.contact .contact-form .butn {
   text-transform: uppercase;
   background-color: transparent;
   padding: 10px 20px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-/* line 306, ../scss/main.scss */
+/* line 310, ../scss/main.scss */
 section.contact .contact-form .butn:hover {
   background-color: #e67e22;
   color: #fff;
 }
-/* line 312, ../scss/main.scss */
+/* line 316, ../scss/main.scss */
 section.contact .small-talk p {
   font-size: 18px;
   color: #868686;
   font-weight: 400;
   line-height: 1.8;
 }
-/* line 320, ../scss/main.scss */
-section.contact .small-talk p span:first-child {
-  margin-left: 0px;
-}
 /* line 323, ../scss/main.scss */
+section.contact .small-talk p span:first-child {
+  margin-left: 0;
+}
+/* line 326, ../scss/main.scss */
 section.contact .small-talk p span {
   margin-left: 16px;
 }
 
-/* line 330, ../scss/main.scss */
+/* line 332, ../scss/main.scss */
 footer {
   color: #34495e;
 }
 
-/* line 333, ../scss/main.scss */
+/* line 335, ../scss/main.scss */
 .m-b-lg {
   margin-bottom: 20px;
 }
 
-/* line 336, ../scss/main.scss */
+/* line 338, ../scss/main.scss */
 span.blue {
   color: #e67e22;
 }
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
-  /* line 344, ../scss/main.scss */
+  /* line 346, ../scss/main.scss */
   .jumbotron .title {
     padding: 100px 0;
   }
 }
 /* ----------- Retina Screens ----------- */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
-  /* line 353, ../scss/main.scss */
+  /* line 355, ../scss/main.scss */
   .jumbotron .title {
     padding: 100px 0;
   }
 }
 @media screen and (min-width: 1300px) {
-  /* line 361, ../scss/main.scss */
+  /* line 362, ../scss/main.scss */
   .jumbotron .title {
     padding: 120px 0;
   }
 
-  /* line 365, ../scss/main.scss */
+  /* line 366, ../scss/main.scss */
   section.unique {
     padding: 60px 0;
   }
 
-  /* line 368, ../scss/main.scss */
+  /* line 369, ../scss/main.scss */
   section.work {
     padding: 60px 0;
   }
 
-  /* line 371, ../scss/main.scss */
+  /* line 372, ../scss/main.scss */
   section.service {
     padding: 60px 0;
   }
 }
 @media screen and (min-width: 1920px) {
-  /* line 377, ../scss/main.scss */
+  /* line 378, ../scss/main.scss */
   .jumbotron .title {
     padding: 250px 0;
   }
-  /* line 380, ../scss/main.scss */
+  /* line 381, ../scss/main.scss */
   .jumbotron .menu > ul {
     text-align: right;
   }
 
-  /* line 384, ../scss/main.scss */
+  /* line 385, ../scss/main.scss */
   section.unique {
     padding: 250px 0;
   }
 
-  /* line 387, ../scss/main.scss */
+  /* line 388, ../scss/main.scss */
   section.work {
     padding: 250px 0;
   }
 
-  /* line 390, ../scss/main.scss */
+  /* line 391, ../scss/main.scss */
   section.service {
     padding: 250px 0;
   }
@@ -501,37 +508,37 @@ span.blue {
 /* Portrait and Landscape */
 /* Portrait */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  /* line 465, ../scss/main.scss */
+  /* line 436, ../scss/main.scss */
   .jumbotron {
     min-height: 100vh;
   }
-  /* line 467, ../scss/main.scss */
+  /* line 438, ../scss/main.scss */
   .jumbotron .menu {
     text-align: center;
   }
-  /* line 470, ../scss/main.scss */
+  /* line 441, ../scss/main.scss */
   .jumbotron .menu > ul {
     margin-left: 10px;
   }
-  /* line 473, ../scss/main.scss */
+  /* line 444, ../scss/main.scss */
   .jumbotron .title {
     padding: 35px 0;
   }
-  /* line 476, ../scss/main.scss */
+  /* line 447, ../scss/main.scss */
   .jumbotron img {
     margin-left: 65px;
   }
 
-  /* line 482, ../scss/main.scss */
+  /* line 452, ../scss/main.scss */
   section.do p {
     font-size: 18px;
   }
 
-  /* line 488, ../scss/main.scss */
+  /* line 457, ../scss/main.scss */
   section.quote p.b-quote {
     font-size: 28px;
   }
-  /* line 491, ../scss/main.scss */
+  /* line 460, ../scss/main.scss */
   section.quote p.sub-quote {
     font-size: 23px;
   }
@@ -540,3 +547,24 @@ span.blue {
 /* Portrait and Landscape */
 /* Portrait */
 /* Landscape */
+/* line 483, ../scss/main.scss */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+/* line 497, ../scss/main.scss */
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}

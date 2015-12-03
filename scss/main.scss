@@ -21,12 +21,12 @@ body {
   .title {
     padding: 250px 0;
   }
-  .s-title-bold{
-    font-weight:600;
+  .s-title-bold {
+    font-weight: 600;
   }
   .menu>ul {
     vertical-align: bottom;
-    padding:36px 0;
+    padding: 36px 0;
     li {
       display: inline-block;
       list-style-type: none;
@@ -37,10 +37,9 @@ body {
         font-size: 20px;
         font-weight: 200;
         text-decoration: none;
-        transition:all .1s ease-in-out;
+        transition: all 0.1s ease-in-out;
       }
-
-      a:hover{
+      a:hover {
         color: $carrot;
       }
     }
@@ -139,7 +138,7 @@ section.do {
     font-size: 30px;
     font-weight: 200;
     line-height: 1.5;
-    color:#564B4B;
+    color: #564B4B;
   }
 }
 section.unique {
@@ -150,8 +149,8 @@ section.unique {
   border-radius: 0;
   color: #fff;
   padding: 250px 0;
-  .s-title{
-    margin-bottom:40px;
+  .s-title {
+    margin-bottom: 40px;
   }
   .card {
     text-align: center;
@@ -218,6 +217,10 @@ section.work {
     font-size: 26px;
     line-height: 1.5;
   }
+  ul>li{
+    padding-bottom:8px;
+    list-style: none;
+  }
   hr.strike-through {
     width: 70%;
     height: 2px;
@@ -275,57 +278,56 @@ section.service {
     line-height: 1.6;
   }
 }
-
 section.contact {
   padding: 20px 0;
-  .s-title{
-    margin-bottom:40px;
+  .s-title {
+    margin-bottom: 40px;
   }
-  .contact-form{
-    .form-group{
-      .form-control{
+  .contact-form {
+    .form-group {
+      .form-control {
         border-radius: 0;
-        border:2px solid $grey;
-        padding:22px 12px;
+        border: 2px solid $grey;
+        padding: 22px 12px;
         text-transform: uppercase;
-        transition: all .1s ease-in-out;
+        transition: all 0.1s ease-in-out;
       }
-      .form-control:focus,.form-control:active,.form-control:hover{
-        border-color:$carrot;
+      .form-control:focus,
+      .form-control:active,
+      .form-control:hover {
+        border-color: $carrot;
       }
     }
-    .butn{
+    .butn {
       border-radius: 0;
-      border:1px solid $carrot;
-      color:$carrot;
+      border: 1px solid $carrot;
+      color: $carrot;
       text-transform: uppercase;
       background-color: transparent;
-      padding:10px 20px;
-      transition: all .2s ease-in-out;
+      padding: 10px 20px;
+      transition: all 0.2s ease-in-out;
     }
-    .butn:hover{
-      background-color:$carrot;
-      color:#fff;
+    .butn:hover {
+      background-color: $carrot;
+      color: #fff;
     }
   }
-  .small-talk{
-    p{
-      font-size:18px;
-      color:$grey;
+  .small-talk {
+    p {
+      font-size: 18px;
+      color: $grey;
       font-weight: 400;
       line-height: 1.8;
     }
-
-    p{
-      span:first-child{
-        margin-left: 0px;
+    p {
+      span:first-child {
+        margin-left: 0;
       }
-      span{
-        margin-left:16px;
+      span {
+        margin-left: 16px;
       }
     }
   }
-
 }
 footer {
   color: $wet-asphalt;
@@ -355,170 +357,144 @@ span.blue {
     }
   }
 }
-
-@media screen and (min-width:1300px){
+@media screen and (min-width:1300px) {
   .jumbotron {
     .title {
       padding: 120px 0;
     }
   }
-  section.unique{
-    padding:60px 0;
+  section.unique {
+    padding: 60px 0;
   }
-  section.work{
-    padding:60px 0;
+  section.work {
+    padding: 60px 0;
   }
-  section.service{
-    padding:60px 0;
+  section.service {
+    padding: 60px 0;
   }
 }
-@media screen and (min-width:1920px){
+@media screen and (min-width:1920px) {
   .jumbotron {
     .title {
       padding: 250px 0;
     }
-    .menu>ul{
+    .menu>ul {
       text-align: right;
     }
   }
-  section.unique{
-    padding:250px 0;
+  section.unique {
+    padding: 250px 0;
   }
-  section.work{
-    padding:250px 0;
+  section.work {
+    padding: 250px 0;
   }
-  section.service{
-    padding:250px 0;
+  section.service {
+    padding: 250px 0;
   }
 }
 
 /* ----------- iPhone 4 and 4S ----------- */
-
 /* Portrait and Landscape */
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 480px)
-and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
 
 }
 
 /* Portrait */
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 480px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: portrait) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+
 }
 
 /* Landscape */
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 480px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: landscape) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
 
 }
 
 /* ----------- iPhone 5 and 5S ----------- */
-
 /* Portrait and Landscape */
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 568px)
-and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
 
 }
 
 /* Portrait */
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 568px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: portrait) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+
 }
 
 /* Landscape */
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 568px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: landscape) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
 
 }
 
 /* ----------- iPhone 6 ----------- */
-
 /* Portrait and Landscape */
-@media only screen
-and (min-device-width: 375px)
-and (max-device-width: 667px)
-and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
 
 }
 
 /* Portrait */
-@media only screen
-and (min-device-width: 375px)
-and (max-device-width: 667px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: portrait) {
-  .jumbotron{
-    min-height:100vh;
-    .menu{
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .jumbotron {
+    min-height: 100vh;
+    .menu {
       text-align: center;
     }
-    .menu>ul{
-      margin-left:10px;
+    .menu>ul {
+      margin-left: 10px;
     }
-    .title{
-      padding:35px 0;
+    .title {
+      padding: 35px 0;
     }
-    img{
-      margin-left:65px;
-    }
-  }
-
-  section.do{
-    p{
-      font-size:18px;
+    img {
+      margin-left: 65px;
     }
   }
-
-  section.quote{
-    p.b-quote{
-      font-size:28px;
-    }
-    p.sub-quote{
-      font-size:23px;
+  section.do {
+    p {
+      font-size: 18px;
     }
   }
-
+  section.quote {
+    p.b-quote {
+      font-size: 28px;
+    }
+    p.sub-quote {
+      font-size: 23px;
+    }
+  }
 }
 
 /* ----------- iPhone 6+ ----------- */
-
 /* Portrait and Landscape */
-@media only screen
-and (min-device-width: 414px)
-and (max-device-width: 736px)
-and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
 
 }
 
 /* Portrait */
-@media only screen
-and (min-device-width: 414px)
-and (max-device-width: 736px)
-and (-webkit-min-device-pixel-ratio: 3)
-and (orientation: portrait) {
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
 
 }
 
 /* Landscape */
-@media only screen
-and (min-device-width: 414px)
-and (max-device-width: 736px)
-and (-webkit-min-device-pixel-ratio: 3)
-and (orientation: landscape) {
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
 
+}
+
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
