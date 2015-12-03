@@ -52,6 +52,40 @@ body {
 }
 
 // navigation
+.navbar-default {
+  border-color: transparent;
+  background-color: transparent;
+}
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: right;
+    margin: 0;
+  }
+}
+.navbar-brand {
+  float: left;
+  height: 95px;
+  padding: 15px;
+  font-size: 22px;
+  line-height: 20px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 200;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+.navbar-default .navbar-nav>li>a:focus {
+  color: $grey;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: $carrot;
+  background-color: transparent;
+}
 li:first-child {
   margin-left: 0;
 }
@@ -217,8 +251,8 @@ section.work {
     font-size: 26px;
     line-height: 1.5;
   }
-  ul>li{
-    padding-bottom:8px;
+  ul>li {
+    padding-bottom: 8px;
     list-style: none;
   }
   hr.strike-through {
@@ -283,9 +317,25 @@ section.contact {
   .s-title {
     margin-bottom: 40px;
   }
+  ::-webkit-input-placeholder {
+     color: $wet-asphalt;
+  }
+
+  :-moz-placeholder { /* Firefox 18- */
+     color: $wet-asphalt;  
+  }
+
+  ::-moz-placeholder {  /* Firefox 19+ */
+     color: $wet-asphalt;  
+  }
+
+  :-ms-input-placeholder {
+     color: $wet-asphalt;  
+  }
   .contact-form {
     .form-group {
       .form-control {
+        color:$wet-asphalt;
         border-radius: 0;
         border: 2px solid $grey;
         padding: 22px 12px;
@@ -478,8 +528,6 @@ span.blue {
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
 
 }
-
-
 .hvr-grow {
   display: inline-block;
   vertical-align: middle;
@@ -494,7 +542,9 @@ span.blue {
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
